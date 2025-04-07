@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { SignUp } from '@clerk/nextjs'
 const page = () => {
   return (
     <div>
-      <p>Sign Up</p>
+     <SignUp/>
     </div>
   )
 }
