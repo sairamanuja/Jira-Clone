@@ -6,7 +6,9 @@ import { Button } from './ui/button'
 import { PenBox } from 'lucide-react'
 import UserMenu from './user-menu'
 import UserLoading from './user-loading'
+import { checkUser } from '@/lib/checkUser'
 const Header = async () => {
+  await checkUser();
   return (
     <header className='container mx-auto '>
       
